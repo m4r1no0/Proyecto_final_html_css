@@ -15,11 +15,14 @@ nav{
     background-color: white;
     padding: .5em;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5em;
 }
 nav ul{
     display: flex;
     gap: 2em;
-    margin-bottom: .8em;
     font-size: 1.2em;
 }
 nav ul li{
@@ -32,7 +35,7 @@ nav ul li a{
 header{
     margin: 0 2em;
     padding: .5em;
-    height: 400px;
+    height: 425px;
     background-image: url(/img/WBPH35QN3VAQZGWUXMDSLBB4VM.webp);
 }
 h1{
@@ -62,11 +65,20 @@ section{
     background-color: burlywood;
     padding: 3em;
 }
+.enlace{
+    padding: .5em;
+    background-color:  rgb(182, 142, 90);
+    border-radius: 10px;
+    color: white;
+}
+.enlace_uno{
+    margin-top: 1em;
+}
 .col{
     text-align: justify;
 }
 img{
-    width: 681px;
+    max-width: 100%;
 }
 .pie{
     justify-content: space-between;
@@ -159,4 +171,7 @@ legend{
 }
 .nav_seg{
     background-color: rgba(182, 142, 90, 0);
+}
+.derechos{
+    justify-content: center;
 }
