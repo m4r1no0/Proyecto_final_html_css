@@ -24,14 +24,14 @@
         </nav>
             <div class="row fila_subasta">
                 <div class="col subasta">
-                    <h2 class="vivo">Servicios</h2>
+                    <h2 class="vivo">Contactanos</h2>
                 </div>
-                <div class="col">
-                    <nav>
+                <div class="col sub_menu">
+                    <nav class="nav_seg">
                         <ul>
                             <li>
                                 <a href="index.html">Inicio</a>
-                                <a href="contacto.html">Contacto</a>
+                                <a class="activo" href="contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -40,34 +40,50 @@
         </div>
     </header>
     <section class="seccion1">
-        <div class="row">
+        <div class="row contacto_form">
             <div class="col">
                 <h2>Formulario de contacto</h2>
                 <ul>
-                    <li>cel:3112345678</li>
-                    <li>email:marinoosorio97@gmial.com</li>
-                    <li>cel contabilidad:3112345678</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Cel Administrativo: </span> 3112345678</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Email: </span> marinoosorio97@gmial.com</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Cel Contabilidad: </span> 3112345678</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Tel: </span> 6064223456</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Cel Marcado: </span> 3112345678</li>
+                    <li class="lista_contacto"><span class="titulo_contacto">Cel Transporte: </span> 3112345678</li>
                 </ul>
             </div>
             <div class="col">
-                <form action="#">
+                <form class="formulario">
                     <fieldset>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                        <label for="direccion">Direccion</label>
-                        <input type="text" name="direccion" id="direccion">
-                        <label for="mensaje">Servicio Requerido</label>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Enviar">
+                        <legend>Contactanos rellenando los campos</legend>
+                        <div class="contenedor_campos">
+                            <div class="campos">
+                                <label for="Nombre">Nombre</label>
+                                <input class="input-text" type="text" placeholder="Nombre">
+                            </div>
+                            <div class="campos">
+                                <label for="Telefono">Telefono</label>
+                                <input class="input-text" type="number"placeholder="Telefono">
+                            </div>
+                            <div class="campos">
+                                <label for="Correo">Correo</label>
+                                <input class="input-text" type="email" placeholder="Correo">
+                            </div>
+                            <div class="campos">
+                                <label for="Mensaje">Mensaje</label>
+                                <textarea class="input-text" name="Mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="enviar_form">
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
                     </fieldset>
                 </form>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <img src="" alt="foto_subasta">
+                <img src="img/1.jpg" alt="foto_subasta">
             </div>
             <div class="col">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2772.8054911923355!2d-75.84384595080019!3d4.804338322555861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387df8fad99e3b%3A0x923a8f9777e15262!2sProagan%20S.A.!5e0!3m2!1ses-419!2sco!4v1720739273792!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

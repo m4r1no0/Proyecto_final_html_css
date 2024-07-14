@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
+    
 }
 body{
     font-size: 100%;
@@ -14,10 +14,16 @@ body{
 nav{
     background-color: white;
     padding: .5em;
+    border-radius: 10px;
 }
 nav ul{
     display: flex;
     gap: 2em;
+    margin-bottom: .8em;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style: none;
 }
 nav ul li a{
     text-decoration: none;
@@ -68,4 +74,89 @@ img{
 footer{
     background-color: rgb(182, 142, 90);
     padding: 1em;
+}
+.formulario{
+    background-color: rgb(182, 142, 90);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40rem;
+}
+.campos{
+    margin-bottom: 1rem;
+}
+.contenedor-campos{
+    display: grid;
+
+}
+.campos label{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campos textarea{
+  height: 8rem ;
+
+}
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.enviar .boton{
+    width: 100%;
+}
+.contacto_form{
+    display: flex;
+    justify-content: space-around;
+    gap: 4.6em;
+}
+.lista_contacto{
+    line-height: 1.5;
+    font-size: 1.5em;
+
+}
+.titulo_contacto{
+    font-weight: 700;
+}
+fieldset{
+    border: none;
+}
+legend{
+    margin-bottom: .5em;
+    font-weight: 600;
+}
+.boton{
+    background-color:white;
+    color:black;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+.enviar .boton{
+    width: 100%;
+}
+.enviar_form{
+    display: flex;
+    justify-content: center;
+}
+.sub_menu{
+    display: flex;
+    align-items: center;
+}
+.activo{
+    background-color: rgb(182, 142, 90) ;
+    border-radius: 10px;
+    padding: .3em;
+}
+.nav_seg{
+    background-color: rgba(182, 142, 90, 0);
 }
