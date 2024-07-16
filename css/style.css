@@ -1,3 +1,9 @@
+:root{
+    --primario:#784212;
+    --secundario:#EB984E;
+}
+
+
 *, 
 *:after,
 *:before {
@@ -33,7 +39,7 @@ nav ul li a{
     color: black;
 }
 nav ul li a:hover{
-    background-color: rgb(182, 142, 90);
+    background-color:var(--primario);
     padding: .4em;
     border-radius: 10px;
 }
@@ -57,7 +63,7 @@ h2{
 .vivo{
     font-size: 3em;
     color:white;
-    text-shadow: 5px 5px 5px rgb(182, 142, 90) ;
+    text-shadow: 5px 5px 5px var(--primario) ;
 }
 .subasta{
     width: 30%;
@@ -73,13 +79,13 @@ h2{
 }
 section{
     margin:2em;
-    background-color: burlywood;
+    background-color: var(--secundario);
     padding: 3em;
     box-shadow: 5px 5px 5px 5px black;
 }
 .enlace{
     padding: .5em;
-    background-color:  rgb(182, 142, 90);
+    background-color:  var(--primario);
     border-radius: 10px;
     color: white;
 }
@@ -96,11 +102,11 @@ img{
     justify-content: space-between;
 }
 footer{
-    background-color: rgb(182, 142, 90);
+    background-color: var(--primario);
     padding: 1em;
 }
 .formulario{
-    background-color: rgb(182, 142, 90);
+    background-color: var(--primario);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -177,7 +183,7 @@ legend{
     align-items: center;
 }
 .activo{
-    background-color: rgb(182, 142, 90) ;
+    background-color: var(--primario);
     border-radius: 10px;
     padding: .3em;
 }
