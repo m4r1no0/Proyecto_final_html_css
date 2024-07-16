@@ -205,6 +205,9 @@ th, td {
     padding: .2em;
     text-align: left;
 }
+.centro{
+    justify-content: center;
+}
 @media (max-width:768px) {
     .row{
         flex-direction: column;
