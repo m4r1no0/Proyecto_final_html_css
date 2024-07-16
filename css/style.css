@@ -40,10 +40,12 @@ nav ul li a:hover{
 header{
     margin: 0 2em;
     padding: .5em;
-    height: 425px;
     background-image: url(/img/WBPH35QN3VAQZGWUXMDSLBB4VM.webp);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.col_video{
+    padding: 2.5em;
 }
 h1{
     width: 50%;
@@ -197,16 +199,12 @@ th, td {
     padding: .2em;
     text-align: left;
 }
-
 @media (max-width:768px) {
     .row{
         flex-direction: column;
     }
     .fila_subasta{
         flex-direction: column;
-    }
-    iframe{
-        max-width: 100%;
     }
     
 }
