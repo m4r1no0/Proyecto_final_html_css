@@ -60,6 +60,9 @@ h1{
 h2{
     padding: .3em 0;
 }
+h3{
+    margin-bottom: .5em;
+}
 .vivo{
     font-size: 3em;
     color:white;
@@ -159,7 +162,7 @@ legend{
     font-weight: 600;
 }
 .boton{
-    background-color:white;
+    background-color:var(--secundario);
     color:black;
     padding: 1rem 3rem;
     margin-top: 1rem;
@@ -208,12 +211,30 @@ th, td {
 .centro{
     justify-content: center;
 }
-@media (max-width:768px) {
+@media (max-width:880px) {
     .row{
         flex-direction: column;
     }
     .fila_subasta{
         flex-direction: column;
     }
+    iframe{
+        max-width: 100%;
+    }
     
 }
+@media (max-width:650px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    iframe{
+        max-width: 100%;
+    }
+}
+
