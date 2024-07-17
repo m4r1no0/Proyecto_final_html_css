@@ -233,6 +233,7 @@ th, td {
     .tabla{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        gap: 1em;
     }
 }
 @media (max-width:650px) {
