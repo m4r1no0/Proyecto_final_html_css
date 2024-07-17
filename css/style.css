@@ -211,6 +211,9 @@ th, td {
 .centro{
     justify-content: center;
 }
+.justifica{
+    justify-content: space-between;
+}
 @media (max-width:880px) {
     .row{
         flex-direction: column;
