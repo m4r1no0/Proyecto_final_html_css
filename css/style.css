@@ -223,17 +223,17 @@ th, td {
     column-gap: 2em;
 }
 
-@media (min-width:881px){
+@media (min-width:900px){
     .tabla{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        column-gap: 1.2em;
+        grid-template-columns: repeat(3,30%);
+        column-gap: 1.5em;
     }
     .tres{
         width: 30%;
     }
 }
-@media (max-width:880px) {
+@media (max-width:899px) {
     .row{
         flex-direction: column;
     }
@@ -275,4 +275,5 @@ th, td {
         row-gap: 1em;
     }
 }
+
 
