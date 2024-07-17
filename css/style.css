@@ -160,6 +160,13 @@ fieldset{
 legend{
     margin-bottom: .5em;
     font-weight: 600;
+    color: white;
+}
+.seg{
+    background-color: var(--secundario);
+}
+label{
+    color: white;
 }
 .boton{
     background-color:var(--secundario);
