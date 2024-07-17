@@ -28,7 +28,7 @@ nav{
 }
 nav ul{
     display: flex;
-    gap: 2em;
+    gap: 1em;
     font-size: 1.2em;
 }
 nav ul li{
@@ -167,6 +167,7 @@ legend{
 }
 label{
     color: white;
+    
 }
 .boton{
     background-color:var(--secundario);
@@ -221,13 +222,15 @@ th, td {
 .esp{
     column-gap: 2em;
 }
+
 @media (min-width:881px){
     .tabla{
         display: grid;
-        grid-area: 1 2 3;
         grid-template-columns: repeat(3,1fr);
-        grid-row: auto auto;
-        column-gap: .5em;
+        column-gap: 1.2em;
+    }
+    .tres{
+        width: 30%;
     }
 }
 @media (max-width:880px) {
@@ -255,6 +258,7 @@ th, td {
     nav{
         display: flex;
         flex-direction: column;
+        gap: 1em;
     }
     iframe{
         max-width: 100%;
