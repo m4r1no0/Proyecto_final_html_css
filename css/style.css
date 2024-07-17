@@ -226,8 +226,9 @@ th, td {
 @media (min-width:900px){
     .tabla{
         display: grid;
-        grid-template-columns: repeat(3,30%);
+        grid-template-columns: repeat(3,33%);
         column-gap: 1.5em;
+        max-width: 100%;
     }
     .tres{
         width: 30%;
@@ -245,7 +246,7 @@ th, td {
     }
     .tabla{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,50%);
         gap: 1em;
     }
 }
