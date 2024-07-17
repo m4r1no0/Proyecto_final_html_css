@@ -61,7 +61,7 @@ h2{
     padding: .3em 0;
 }
 h3{
-    margin-bottom: .5em;
+    margin:.5em 0;
 }
 .vivo{
     font-size: 3em;
@@ -210,6 +210,9 @@ th, td {
 }
 .justifica{
     justify-content: space-between;
+}
+.esp{
+    column-gap: 2em;
 }
 @media (min-width:881px){
     .tabla{
