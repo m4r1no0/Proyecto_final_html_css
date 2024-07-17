@@ -242,5 +242,8 @@ th, td {
     .input-text{
         width: 80%;
     }
+    .campos{
+        width: 80%;
+    }
 }
 
