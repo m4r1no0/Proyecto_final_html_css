@@ -274,6 +274,7 @@ th, td {
         display: flex;
         flex-direction: column;
         row-gap: 1em;
+        width:90%;
     }
 }
 
